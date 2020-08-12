@@ -3,7 +3,6 @@
 # Introduction
 [WeRateDogs](https://twitter.com/dog_rates) is a Twitter account that rates people's dogs with a humorous comment about the dog. Has over 8 million followers and has received international media coverage.
 
-# Main file: 
 # files:
 - wrangle_act.ipynb main file work through  all the project.
 - wrangle_report.html explain wangle process only.
