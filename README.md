@@ -19,7 +19,7 @@ Udacity ran every image in the WeRateDogs Twitter archive through a neural netwo
 # Key points before start:
 - The analysis only for original ratings (no retweets). Though tweets in the dataset, not all are dog ratings and some are retweets.
 - Assessing and cleaning the entire dataset completely would require a lot of time. Therefore, the requirements of this project are only to assess and clean at least 8 quality issues and at least 2 tidiness issues in this dataset.
-- Cleaning includes merging individual pieces of data according to the rules of tidy data.
+- Cleaning includes merging individual pieces of data according to the rules of [tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html).
 - The fact that the rating numerators are greater than the denominators does not need to be cleaned. This [unique rating system](https://knowyourmeme.com/memes/theyre-good-dogs-brent) is a big part of the popularity of WeRateDogs.
 - The tweets beyond August 1st, 2017 not gather. duo to won't be able to gather the image predictions for these tweets since you don't have access to the algorithm used.
 
