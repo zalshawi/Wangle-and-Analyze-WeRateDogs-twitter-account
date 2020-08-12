@@ -1,14 +1,19 @@
 # Wangle-and-Analyze-WeRateDogs-twitter-account
 
 # Introduction
-[WeRateDogs](https://twitter.com/dog_rates) is a Twitter account that rates people's dogs with a humorous comment about the dog WeRateDogs has over 4 million followers and has received international media coverage.
+[WeRateDogs](https://twitter.com/dog_rates) is a Twitter account that rates people's dogs with a humorous comment about the dog. Has over 8 million followers and has received international media coverage.
 
-Process:
+# Main file: 
+# files:
+- wrangle_act.ipynb main file work through  all the project.
+- wrangle_report.html explain wangle process only.
+- act_report.html explain insights and visualization only.
 
-- Data Gather
-- Data Assess
-- Data Clean
-- Data Analyze/Visualize
+# Datasets: 
+- tweet-json.txt (Given from Udacity).
+- image-predictions.tsv (Given from Udacity).
+- twitter-archive-enhanced.csv (Given from Udacity).
+
 
 # Key points before start:
 - The analysis only for original ratings (no retweets).
