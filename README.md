@@ -12,7 +12,7 @@ Udacity ran every image in the WeRateDogs Twitter archive through a neural netwo
 
 # Datasets: 
 - tweet-json.txt (Given from Udacity).
-- image-predictions.tsv (Given from Udacity).
+- [image-predictions.tsv](https://d17h27t6h515a5.cloudfront.net/topher/2017/August/599fd2ad_image-predictions/image-predictions.tsv) (Given from Udacity).
 - twitter-archive-enhanced.csv (Given from Udacity).
 
 
