@@ -13082,7 +13082,7 @@ div#notebook {
 <li><a href="#gather">Data Gathering</a></li>
 <li><a href='#assess'>Data Assessing</a></li>
 <li><a href='#clean'>Data Cleaning</a></li>
-</ul><p><br><br></p>
+</ul><p><br></p>
 
 </div>
 </div>
@@ -13111,7 +13111,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[599]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Libraries Used</span>
@@ -13119,9 +13119,7 @@ div#notebook {
 <span class="kn">import</span> <span class="nn">requests</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">datetime</span>
-
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline
 
 
@@ -13147,7 +13145,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load twitter archive to dataframe</span>
@@ -13161,7 +13159,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Download image predictions programmatically from Udacity&#39;s servers using the Requests library</span>
@@ -13180,7 +13178,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Load tweet json to dataframe</span>
@@ -13202,7 +13200,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">twitter_arch</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13218,7 +13216,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -13374,7 +13372,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">twitter_arch</span><span class="o">.</span><span class="n">shape</span>
@@ -13390,7 +13388,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[6]:</div>
+    <div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -13477,7 +13475,7 @@ memory usage: 313.0+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[600]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">twitter_arch</span><span class="o">.</span><span class="n">source</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -13493,7 +13491,7 @@ memory usage: 313.0+ KB
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[600]:</div>
+    <div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -13514,7 +13512,7 @@ Name: source, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># View source unique inputs</span>
@@ -13531,7 +13529,7 @@ Name: source, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[10]:</div>
 
 
 
@@ -13568,7 +13566,7 @@ Name: source, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[604]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># To view retweet</span>
@@ -13585,7 +13583,7 @@ Name: source, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[604]:</div>
+    <div class="prompt output_prompt">Out[11]:</div>
 
 
 
@@ -13629,40 +13627,40 @@ Name: source, dtype: int64</pre>
   </thead>
   <tbody>
     <tr>
-      <th>546</th>
-      <td>805823200554876929</td>
+      <th>541</th>
+      <td>806242860592926720</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>2016-12-05 17:16:37 +0000</td>
+      <td>2016-12-06 21:04:11 +0000</td>
       <td>&lt;a href="http://twitter.com/download/iphone" rel="nofollow"&gt;Twitter for iPhone&lt;/a&gt;</td>
-      <td>RT @dog_rates: This is Reginald. He's one magical puppo. Aerodynamic af. 12/10 would catch https://t.co/t0cEeRbcXJ</td>
-      <td>7.841832e+17</td>
+      <td>RT @dog_rates: This is Dave. He's currently in a predicament. Doesn't seem to mind tho. 12/10 someone assist Dave https://t.co/nfprKAXqwu</td>
+      <td>7.833346e+17</td>
       <td>4.196984e+09</td>
-      <td>2016-10-07 00:06:50 +0000</td>
-      <td>https://vine.co/v/5ghHLBMMdlV,https://vine.co/v/5ghHLBMMdlV</td>
+      <td>2016-10-04 15:55:06 +0000</td>
+      <td>https://twitter.com/dog_rates/status/783334639985389568/photo/1,https://twitter.com/dog_rates/status/783334639985389568/photo/1,https://twitter.com/dog_rates/status/783334639985389568/photo/1,https://twitter.com/dog_rates/status/783334639985389568/photo/1,https://twitter.com/dog_rates/status/783334639985389568/photo/1,https://twitter.com/dog_rates/status/783334639985389568/photo/1</td>
       <td>12</td>
       <td>10</td>
-      <td>Reginald</td>
+      <td>Dave</td>
       <td>None</td>
       <td>None</td>
       <td>None</td>
-      <td>puppo</td>
+      <td>None</td>
     </tr>
     <tr>
-      <th>606</th>
-      <td>798340744599797760</td>
+      <th>686</th>
+      <td>788070120937619456</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>2016-11-15 01:44:00 +0000</td>
+      <td>2016-10-17 17:32:13 +0000</td>
       <td>&lt;a href="http://twitter.com/download/iphone" rel="nofollow"&gt;Twitter for iPhone&lt;/a&gt;</td>
-      <td>RT @dog_rates: This is Davey. He'll have your daughter home by 8. Just a stand up pup. 11/10 would introduce to mom https://t.co/E6bGWf9EOm</td>
-      <td>7.717705e+17</td>
+      <td>RT @dog_rates: This is Bo and Ty. Bo eats paper and Ty felt left out. 11/10 for both https://t.co/1acHQS8rvK</td>
+      <td>7.610045e+17</td>
       <td>4.196984e+09</td>
-      <td>2016-09-02 18:03:10 +0000</td>
-      <td>https://twitter.com/dog_rates/status/771770456517009408/photo/1,https://twitter.com/dog_rates/status/771770456517009408/photo/1</td>
+      <td>2016-08-04 01:03:17 +0000</td>
+      <td>https://twitter.com/dog_rates/status/761004547850530816/photo/1,https://twitter.com/dog_rates/status/761004547850530816/photo/1</td>
       <td>11</td>
       <td>10</td>
-      <td>Davey</td>
+      <td>Bo</td>
       <td>None</td>
       <td>None</td>
       <td>None</td>
@@ -13681,7 +13679,7 @@ Name: source, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[606]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Original tweets</span>
@@ -13699,7 +13697,7 @@ Name: source, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[606]:</div>
+    <div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -13725,7 +13723,7 @@ Name: source, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">twitter_arch</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -13741,7 +13739,7 @@ Name: source, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[16]:</div>
+    <div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -13758,7 +13756,7 @@ Name: source, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">twitter_arch</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
@@ -13774,7 +13772,7 @@ Name: source, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[17]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -13908,7 +13906,7 @@ Name: source, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check rating_denominator</span>
@@ -13925,7 +13923,7 @@ Name: source, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[18]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -13953,7 +13951,7 @@ Name: rating_denominator, Length: 2356, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check who got 0 score</span>
@@ -13971,7 +13969,7 @@ Name: rating_denominator, Length: 2356, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[19]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -14047,7 +14045,7 @@ Name: rating_denominator, Length: 2356, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check who got 10 score</span>
@@ -14065,7 +14063,7 @@ Name: rating_denominator, Length: 2356, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[20]:</div>
+    <div class="prompt output_prompt">Out[17]:</div>
 
 
 
@@ -14097,7 +14095,7 @@ Name: rating_denominator, Length: 2356, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">twitter_arch</span><span class="o">.</span><span class="n">rating_numerator</span><span class="o">.</span><span class="n">sort_values</span><span class="p">()</span>
@@ -14113,7 +14111,7 @@ Name: rating_denominator, Length: 2356, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[21]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
@@ -14141,7 +14139,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check who got less than 10 as rating</span>
@@ -14159,7 +14157,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[22]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -14176,7 +14174,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Check who got greater than 10 as rating</span>
@@ -14194,7 +14192,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[23]:</div>
+    <div class="prompt output_prompt">Out[20]:</div>
 
 
 
@@ -14233,7 +14231,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">imgpred</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -14249,7 +14247,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[24]:</div>
+    <div class="prompt output_prompt">Out[21]:</div>
 
 
 
@@ -14395,7 +14393,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">imgpred</span><span class="o">.</span><span class="n">shape</span>
@@ -14411,7 +14409,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[25]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
@@ -14441,7 +14439,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[611]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># imgpred accurcy</span>
@@ -14458,7 +14456,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[611]:</div>
+    <div class="prompt output_prompt">Out[23]:</div>
 
 
 
@@ -14475,7 +14473,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[607]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of image missed</span>
@@ -14492,7 +14490,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[607]:</div>
+    <div class="prompt output_prompt">Out[24]:</div>
 
 
 
@@ -14518,7 +14516,7 @@ Name: rating_numerator, Length: 2356, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">imgpred</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -14583,7 +14581,7 @@ memory usage: 152.1+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweet_json</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -14599,7 +14597,7 @@ memory usage: 152.1+ KB
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[28]:</div>
+    <div class="prompt output_prompt">Out[26]:</div>
 
 
 
@@ -14671,7 +14669,7 @@ memory usage: 152.1+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweet_json</span><span class="o">.</span><span class="n">shape</span>
@@ -14687,7 +14685,7 @@ memory usage: 152.1+ KB
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[29]:</div>
+    <div class="prompt output_prompt">Out[27]:</div>
 
 
 
@@ -14746,7 +14744,7 @@ memory usage: 152.1+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[553]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Copy to new dataframe before cleaning</span>
@@ -14781,7 +14779,7 @@ memory usage: 152.1+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[554]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># merge first two dataframes</span>
@@ -14796,7 +14794,7 @@ memory usage: 152.1+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[555]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># To merge need to rename column id into tweet_id</span>
@@ -14810,7 +14808,7 @@ memory usage: 152.1+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[556]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># merge dataframes together</span>
@@ -14833,7 +14831,7 @@ memory usage: 152.1+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[557]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># check</span>
@@ -14850,7 +14848,7 @@ memory usage: 152.1+ KB
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[557]:</div>
+    <div class="prompt output_prompt">Out[32]:</div>
 
 
 
@@ -14938,7 +14936,7 @@ memory usage: 152.1+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[558]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Extract the text from the columns into the new dog_type colunn</span>
@@ -14960,7 +14958,7 @@ memory usage: 152.1+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[559]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#check</span>
@@ -14977,7 +14975,7 @@ memory usage: 152.1+ KB
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[559]:</div>
+    <div class="prompt output_prompt">Out[34]:</div>
 
 
 
@@ -15035,106 +15033,106 @@ memory usage: 152.1+ KB
   </thead>
   <tbody>
     <tr>
-      <th>1931</th>
-      <td>674036086168010753</td>
+      <th>2024</th>
+      <td>671891728106971137</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>2015-12-08 01:21:40 +0000</td>
+      <td>2015-12-02 03:20:45 +0000</td>
       <td>&lt;a href="http://twitter.com/download/iphone" rel="nofollow"&gt;Twitter for iPhone&lt;/a&gt;</td>
-      <td>Meet Daisy. She has no eyes &amp;amp; her face has been blurry since birth. Quite the trooper tho. Still havin a blast. 9/10 https://t.co/jcNdw43BIP</td>
+      <td>This is Mojo. Apparently he's too cute for a seat belt. Hella careless. I'd still pet him tho. 11/10 buckle up pup https://t.co/dzZYx2NByW</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>https://twitter.com/dog_rates/status/674036086168010753/photo/1</td>
-      <td>9</td>
+      <td>https://twitter.com/dog_rates/status/671891728106971137/photo/1</td>
+      <td>11</td>
       <td>10</td>
-      <td>Daisy</td>
+      <td>Mojo</td>
       <td>None</td>
       <td>None</td>
       <td>None</td>
       <td>None</td>
-      <td>https://pbs.twimg.com/media/CVqoPslWEAEk7EC.jpg</td>
+      <td>https://pbs.twimg.com/media/CVMJ9guXAAAhAiK.jpg</td>
       <td>1.0</td>
-      <td>toy_poodle</td>
-      <td>0.685617</td>
+      <td>Labrador_retriever</td>
+      <td>0.567933</td>
       <td>True</td>
-      <td>miniature_poodle</td>
-      <td>0.151936</td>
+      <td>golden_retriever</td>
+      <td>0.349401</td>
       <td>True</td>
-      <td>Maltese_dog</td>
-      <td>0.045531</td>
-      <td>True</td>
-      <td>240.0</td>
-      <td>906.0</td>
+      <td>seat_belt</td>
+      <td>0.069396</td>
+      <td>False</td>
+      <td>618.0</td>
+      <td>1415.0</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>627</th>
-      <td>794983741416415232</td>
+      <th>894</th>
+      <td>759197388317847553</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>2016-11-05 19:24:28 +0000</td>
+      <td>2016-07-30 01:22:17 +0000</td>
       <td>&lt;a href="http://twitter.com/download/iphone" rel="nofollow"&gt;Twitter for iPhone&lt;/a&gt;</td>
-      <td>RT @dog_rates: This is Rizzy. She smiles a lot. 12/10 contagious af https://t.co/TU4sZogVIq</td>
-      <td>7.895309e+17</td>
-      <td>4.196984e+09</td>
-      <td>2016-10-21 18:16:44 +0000</td>
-      <td>https://twitter.com/dog_rates/status/789530877013393408/photo/1,https://twitter.com/dog_rates/status/789530877013393408/photo/1,https://twitter.com/dog_rates/status/789530877013393408/photo/1,https://twitter.com/dog_rates/status/789530877013393408/photo/1,https://twitter.com/dog_rates/status/789530877013393408/photo/1,https://twitter.com/dog_rates/status/789530877013393408/photo/1</td>
+      <td>This is Luna. She's just heckin precious af I have nothing else to say. 12/10 https://t.co/gQH2mmKIJW</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://twitter.com/dog_rates/status/759197388317847553/photo/1,https://twitter.com/dog_rates/status/759197388317847553/photo/1,https://twitter.com/dog_rates/status/759197388317847553/photo/1</td>
       <td>12</td>
       <td>10</td>
-      <td>Rizzy</td>
+      <td>Luna</td>
       <td>None</td>
       <td>None</td>
       <td>None</td>
       <td>None</td>
-      <td>https://pbs.twimg.com/media/CvT6IV6WEAQhhV5.jpg</td>
-      <td>3.0</td>
-      <td>schipperke</td>
-      <td>0.363272</td>
+      <td>https://pbs.twimg.com/media/Cok1_sjXgAU3xpp.jpg</td>
+      <td>1.0</td>
+      <td>kuvasz</td>
+      <td>0.511341</td>
       <td>True</td>
-      <td>kelpie</td>
-      <td>0.197021</td>
+      <td>golden_retriever</td>
+      <td>0.076899</td>
       <td>True</td>
-      <td>Norwegian_elkhound</td>
-      <td>0.151024</td>
-      <td>True</td>
-      <td>3942.0</td>
-      <td>0.0</td>
+      <td>white_wolf</td>
+      <td>0.063269</td>
+      <td>False</td>
+      <td>2221.0</td>
+      <td>6725.0</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>2033</th>
-      <td>671744970634719232</td>
+      <th>384</th>
+      <td>826958653328592898</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>2015-12-01 17:37:36 +0000</td>
+      <td>2017-02-02 01:01:21 +0000</td>
       <td>&lt;a href="http://twitter.com/download/iphone" rel="nofollow"&gt;Twitter for iPhone&lt;/a&gt;</td>
-      <td>Very fit horned dog here. Looks powerful. Not phased by wind. Great beard. Big enough to ride? 6/10 would cuddle https://t.co/wwwYO9C9kl</td>
+      <td>This is Loki. He smiles like Elvis. Ain't nothin but a hound doggo. 12/10 https://t.co/QV5nx6otZR</td>
       <td>NaN</td>
       <td>NaN</td>
       <td>NaN</td>
-      <td>https://twitter.com/dog_rates/status/671744970634719232/photo/1</td>
-      <td>6</td>
+      <td>https://twitter.com/dog_rates/status/826958653328592898/photo/1</td>
+      <td>12</td>
       <td>10</td>
+      <td>Loki</td>
+      <td>doggo</td>
       <td>None</td>
       <td>None</td>
       <td>None</td>
-      <td>None</td>
-      <td>None</td>
-      <td>https://pbs.twimg.com/media/CVKEfMKWoAAR-Ud.jpg</td>
+      <td>https://pbs.twimg.com/media/C3nygbBWQAAjwcW.jpg</td>
       <td>1.0</td>
-      <td>ice_bear</td>
-      <td>0.251193</td>
+      <td>golden_retriever</td>
+      <td>0.617389</td>
+      <td>True</td>
+      <td>Labrador_retriever</td>
+      <td>0.337053</td>
+      <td>True</td>
+      <td>tennis_ball</td>
+      <td>0.008554</td>
       <td>False</td>
-      <td>ram</td>
-      <td>0.213839</td>
-      <td>False</td>
-      <td>Arctic_fox</td>
-      <td>0.081551</td>
-      <td>False</td>
-      <td>841.0</td>
-      <td>1430.0</td>
-      <td>NaN</td>
+      <td>5757.0</td>
+      <td>23767.0</td>
+      <td>doggo</td>
     </tr>
   </tbody>
 </table>
@@ -15149,7 +15147,7 @@ memory usage: 152.1+ KB
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[560]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">dog_type</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -15165,7 +15163,7 @@ memory usage: 152.1+ KB
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[560]:</div>
+    <div class="prompt output_prompt">Out[35]:</div>
 
 
 
@@ -15210,7 +15208,7 @@ Name: dog_type, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[561]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">tweet_id</span> <span class="o">=</span> <span class="n">tweets</span><span class="o">.</span><span class="n">tweet_id</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="s1">&#39;str&#39;</span><span class="p">)</span>
@@ -15237,7 +15235,7 @@ Name: dog_type, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[562]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">dtypes</span>
@@ -15253,7 +15251,7 @@ Name: dog_type, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[562]:</div>
+    <div class="prompt output_prompt">Out[37]:</div>
 
 
 
@@ -15301,7 +15299,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[563]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">timestamp</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
@@ -15317,15 +15315,15 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[563]:</div>
+    <div class="prompt output_prompt">Out[38]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>124    2017-05-28 01:26:04
-2059   2015-11-30 04:37:05
-602    2016-11-15 21:49:12
+<pre>802   2016-09-03 22:02:38
+783   2016-09-12 15:10:21
+86    2017-06-16 16:11:53
 Name: timestamp, dtype: datetime64[ns]</pre>
 </div>
 
@@ -15348,7 +15346,7 @@ Name: timestamp, dtype: datetime64[ns]</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[564]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s1">&#39;rating_denominator == 0&#39;</span><span class="p">)</span>
@@ -15364,7 +15362,7 @@ Name: timestamp, dtype: datetime64[ns]</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[564]:</div>
+    <div class="prompt output_prompt">Out[39]:</div>
 
 
 
@@ -15468,7 +15466,7 @@ Name: timestamp, dtype: datetime64[ns]</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[565]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Since this is not an original tweets delete it</span>
@@ -15489,7 +15487,7 @@ Name: timestamp, dtype: datetime64[ns]</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[566]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># row index want to drop is 313</span>
@@ -15511,7 +15509,7 @@ Name: timestamp, dtype: datetime64[ns]</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[567]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This row(denominator == 0) no longer in dataframe</span>
@@ -15528,7 +15526,7 @@ Name: timestamp, dtype: datetime64[ns]</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[567]:</div>
+    <div class="prompt output_prompt">Out[42]:</div>
 
 
 
@@ -15617,7 +15615,7 @@ Name: timestamp, dtype: datetime64[ns]</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[568]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">rating_denominator</span> <span class="o">=</span> <span class="mi">10</span>
@@ -15638,7 +15636,7 @@ Name: timestamp, dtype: datetime64[ns]</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[569]:</div>
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">rating_denominator</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
@@ -15654,22 +15652,22 @@ Name: timestamp, dtype: datetime64[ns]</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[569]:</div>
+    <div class="prompt output_prompt">Out[44]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>1515    10
-696     10
-306     10
-1813    10
-1867    10
-53      10
-1763    10
-2353    10
-1466    10
-1426    10
+<pre>354     10
+1369    10
+1411    10
+1178    10
+2297    10
+1190    10
+615     10
+1768    10
+1864    10
+2059    10
 Name: rating_denominator, dtype: int64</pre>
 </div>
 
@@ -15700,7 +15698,7 @@ Name: rating_denominator, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[570]:</div>
+<div class="prompt input_prompt">In&nbsp;[45]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># To Keep original tweets only, the columns where retweeted_status_id is NaN(otherwise its retweets)</span>
@@ -15714,7 +15712,7 @@ Name: rating_denominator, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[571]:</div>
+<div class="prompt input_prompt">In&nbsp;[46]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of retweets</span>
@@ -15731,7 +15729,7 @@ Name: rating_denominator, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[571]:</div>
+    <div class="prompt output_prompt">Out[46]:</div>
 
 
 
@@ -15756,7 +15754,7 @@ Name: rating_denominator, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[572]:</div>
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">shape</span>
@@ -15772,7 +15770,7 @@ Name: rating_denominator, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[572]:</div>
+    <div class="prompt output_prompt">Out[47]:</div>
 
 
 
@@ -15808,7 +15806,7 @@ Name: rating_denominator, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[574]:</div>
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Retweets related columns no longer needed</span>
@@ -15831,7 +15829,7 @@ Name: rating_denominator, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[575]:</div>
+<div class="prompt input_prompt">In&nbsp;[49]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
@@ -15847,7 +15845,7 @@ Name: rating_denominator, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[575]:</div>
+    <div class="prompt output_prompt">Out[49]:</div>
 
 
 
@@ -15919,7 +15917,7 @@ Name: rating_denominator, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[584]:</div>
+<div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()[:</span><span class="mi">3</span><span class="p">]</span>
@@ -15935,7 +15933,7 @@ Name: rating_denominator, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[584]:</div>
+    <div class="prompt output_prompt">Out[50]:</div>
 
 
 
@@ -15963,11 +15961,11 @@ Name: name, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[589]:</div>
+<div class="prompt input_prompt">In&nbsp;[51]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Remove inaccurate names </span>
-<span class="n">tweets</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">tweets1</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;^[a-z]+&#39;</span><span class="p">,</span> <span class="s1">&#39;None&#39;</span><span class="p">)</span>
+<span class="n">tweets</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">tweets</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;^[a-z]+&#39;</span><span class="p">,</span> <span class="s1">&#39;None&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -15985,7 +15983,7 @@ Name: name, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[590]:</div>
+<div class="prompt input_prompt">In&nbsp;[52]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()[:</span><span class="mi">3</span><span class="p">]</span>
@@ -16001,15 +15999,15 @@ Name: name, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[590]:</div>
+    <div class="prompt output_prompt">Out[52]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
 <pre>None       783
-Charlie     11
 Lucy        11
+Charlie     11
 Name: name, dtype: int64</pre>
 </div>
 
@@ -16021,7 +16019,7 @@ Name: name, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[591]:</div>
+<div class="prompt input_prompt">In&nbsp;[53]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tweets</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s1">&#39;name == &quot;a&quot;&#39;</span><span class="p">)</span>
@@ -16037,7 +16035,7 @@ Name: name, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[591]:</div>
+    <div class="prompt output_prompt">Out[53]:</div>
 
 
 
@@ -16105,7 +16103,7 @@ Name: name, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[440]:</div>
+<div class="prompt input_prompt">In&nbsp;[54]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Storing the dataframe after clean into csv</span>
