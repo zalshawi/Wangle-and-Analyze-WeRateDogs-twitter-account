@@ -1,7 +1,7 @@
 # Wangle-and-Analyze-WeRateDogs-twitter-account
 
 # Introduction
-WeRateDogs is a Twitter account that rates people's dogs with a humorous comment about the dog WeRateDogs has over 4 million followers and has received international media coverage.
+[WeRateDogs](https://twitter.com/dog_rates) is a Twitter account that rates people's dogs with a humorous comment about the dog WeRateDogs has over 4 million followers and has received international media coverage.
 
 Process:
 
