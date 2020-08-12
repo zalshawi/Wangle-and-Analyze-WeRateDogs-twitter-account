@@ -7,6 +7,8 @@
 - wrangle_act.ipynb main file work through  all the project.
 - wrangle_report.html explain wangle process only.
 - act_report.html explain insights and visualization only.
+- Image Predictions File
+-- Udacity ran every image in the WeRateDogs Twitter archive through a neural network that can classify breeds of dogs. The results: a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images).
 
 # Datasets: 
 - tweet-json.txt (Given from Udacity).
@@ -22,29 +24,17 @@
 - Do not need to gather the tweets beyond August 1st, 2017. duo to won't be able to gather the image predictions for these tweets since you don't have access to the algorithm used.
 
 
-
-
-
 # Software Needed
-Need to be able to work in a Jupyter Notebook.
-
 The following packages (libraries) need to be installed:
-pandas
-requests
-os
-json
-datetime
-matplotlib
+- pandas
+- requests
+- os
+- json
+- datetime
+- matplotlib
 
 
-Enhanced Twitter Archive
-The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which was used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Of the 5000+ tweets, tweets with ratings only have beenfiltered for (there are 2356).
 
-Additional Data via the Twitter API
-Regarding the basic-ness of Twitter archives: retweet count and favorite count are two of the notable column omissions. Fortunately, this additional data can be gathered from Twitter's API. The project queries Twitter's API to gather this valuable data.
-
-Image Predictions File
-Udacity ran every image in the WeRateDogs Twitter archive through a neural network that can classify breeds of dogs. The results: a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images).
 
 Key Points
 Key points to keep in mind when data wrangling for this project:
