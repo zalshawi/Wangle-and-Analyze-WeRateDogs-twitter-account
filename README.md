@@ -3,7 +3,7 @@
 # Introduction
 [WeRateDogs](https://twitter.com/dog_rates) is a Twitter account that rates people's dogs with a humorous comment about the dog. WeRateDogs has over 8 million followers and has received international media coverage. WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively to use it in this project. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 2500+ of their tweets as they stood on August 1, 2017.
 
-# files:
+# Files:
 - wrangle_act.ipynb main file work through  all the project.
 - wrangle_report.html explain wangle process only.
 - act_report.html explain insights and visualization only.
