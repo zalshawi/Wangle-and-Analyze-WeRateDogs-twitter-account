@@ -29,11 +29,6 @@ Udacity ran every image in the WeRateDogs Twitter archive through a neural netwo
 - The tweets beyond August 1st, 2017 not gather. duo to won't be able to gather the image predictions for these tweets since you don't have access to the algorithm used.
 
 
-# Software Needed
-The following packages (libraries) need to be installed:
-- pandas
-- requests
-- os
-- json
-- datetime
-- matplotlib
+# Code and Resources Used
+**Python Verison:** 3.7 
+**packages:** Pandas, requests, os, json, datetime, matplotlib
