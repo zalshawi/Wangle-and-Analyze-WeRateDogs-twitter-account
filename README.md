@@ -31,4 +31,5 @@ Udacity ran every image in the WeRateDogs Twitter archive through a neural netwo
 
 # Code and Resources Used
 **Python Verison:** 3.7 
+
 **packages:** Pandas, requests, os, json, datetime, matplotlib
